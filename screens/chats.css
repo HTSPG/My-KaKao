@@ -1,0 +1,44 @@
+.chat-ad {
+}
+
+.chat-ad img {
+  width: 100%;
+  height: 130px;
+}
+
+.chat-title {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
+}
+
+.chat-title__profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin-right: 7px;
+}
+
+.chat-title__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-title__roomtitle {
+  margin-bottom: 10px;
+}
+
+.chat-title__roomchat {
+  font-weight: 300;
+}
+
+.chat-title__time {
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  font-size: 15px;
+  font-weight: 300;
+}

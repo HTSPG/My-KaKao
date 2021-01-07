@@ -20,10 +20,10 @@
   margin-bottom: 130px;
 }
 
-.log-in {
+.log-in form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
 }
 
 .log-in__idpw {
