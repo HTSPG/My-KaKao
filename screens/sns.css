@@ -1,0 +1,90 @@
+.sns-selection {
+  margin-top: 40px;
+  font-size: 30px;
+  display: flex;
+}
+
+.sns-selection span {
+  margin-right: 20px;
+}
+
+.sns-selection span:last-child {
+  display: flex;
+  margin-left: 50px;
+}
+
+.sns-ad {
+  margin-top: 10px;
+}
+.sns-ad img {
+  width: 100%;
+  height: 100px;
+}
+
+.covid {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 15px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.covid__patient span {
+  margin-right: 5px;
+}
+
+.covid__patient span:last-child {
+  font-weight: 300;
+  font-size: 10px;
+  position: absolute;
+  top: 0px;
+}
+
+.covid__qr {
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.news {
+}
+
+.news-headline {
+  border-bottom: var(--main-border);
+  padding-bottom: 10px;
+}
+
+.news-headline:nth-child(5) {
+  border-bottom: 0;
+}
+
+.news-photo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.news-photo__box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.news-photo__icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.news-photo__icon i {
+  font-weight: 100;
+}
+
+.news-photo__box img {
+  margin-right: 10px;
+  width: 300px;
+  height: 160px;
+  border-radius: 5px;
+}
